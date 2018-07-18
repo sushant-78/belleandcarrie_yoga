@@ -1,0 +1,46 @@
+main {
+	text-align: center;
+
+}
+
+main h2 {
+	margin-bottom: 15px;
+}
+
+#figure_wrapper {
+	margin-bottom: 30px;
+	display: flex;
+	
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+
+figcaption {
+	color:rgb(182, 209, 172);
+}
+
+figure{
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+/*media queries*/
+@media only screen and (min-width: 768px){
+	#figure_wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	figure {
+		width: auto;
+		margin: 0 30px 30px 0;
+	}
+
+	#figure_wrapper figure:last-child {
+		margin: 0;
+	}
+}
