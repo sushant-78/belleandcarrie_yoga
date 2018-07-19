@@ -4,38 +4,52 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Open+Sans" rel="stylesheet">
-
+  <link rel="stylesheet" type="text/css" href="css/general.css">
+  <link rel="stylesheet" type="text/css" href="css/contacts.css">
   <title>Belle&Carrie Rehabilitation Yoga</title>
-
-  <link rel="stylesheet" href="/default.css">
 
   <meta charset="utf-8">
   <meta name="author" content="sushant k. waghmare">
 </head>
 <body>
   <header>
+    <div class="title">
     <a href="index.html">
     <h1>Belle & Carrie</h1>
     <p>REHABILITATION YOGA</p>
     </a>
+    </div>
+
     <nav>
       <ul>
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>CLASSES
-            <ul>
-              <li>INSTRUCTORS</li>
-            </ul>
+        <li>
+          <a href="index.html">HOME</a>
         </li>
-        <li>CONTACT</li>
-        <li>BLOG</li>
+        <li>
+          <a href="about.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="classes.html">CLASSES</a>
+        </li>
+        <li>
+          <a href="instructors.html">INSTRUCTORS</a>
+        </li>
+        <li>
+          <a href="contacts.html">CONTACTS</a>
+        </li>
+        <li>
+          <a href="blog.html">BLOG</a>
+        </li>
       </ul>
     </nav>
   </header>
 
-  <menu>
+  <main>
     <h2>Contact</h2>
+    
     <form action="#" method="post">
+      <p>Inquiries</p>
+      
       <label for="user_name">
       Name
       <input id="user_name" type="text" name="user_name">
@@ -53,20 +67,20 @@
 
       <label for="message">
       Message
-      <textarea id="message" name="message"></textarea>
+      <textarea id="message" name="message" rows="18"></textarea>
       </label>
 
       <button type="submit" name="submit">Send</button>
     </form>
-  </menu>
+  </main>
 
   <footer>
-    <div>
+    <div id="address">
     <address>123 St. City Location, Country</address>
     <a href="tel:+91987654321">+91 987654321</a>
     </div>
 
-    <div>
+    <div id="footer_social_logos">
       <a href="#"><img src="images/icon-facebook.png"></a>
       <a href="#"><img src="images/icon-twitter.png"></a>
       <a href="#"><img src="images/icon-googleplus.png"></a>

@@ -1,0 +1,72 @@
+main {
+	background-color: rgb(255,255,255);
+	padding: 15px;
+	overflow: hidden;
+}
+
+main h2 {
+	font-size: 1.5rem;
+	padding: 30px 0;
+}
+
+main p {
+	margin-bottom: 15px;
+}
+
+main label,main p,textarea {
+	color: rgb(7, 112, 84);
+	display: block;
+	margin-bottom: 15px;
+}
+
+main label,main input,textarea {
+	width: 100%;
+}
+
+main input,textarea {
+	background-color: rgb(209, 211, 212);
+	border: 1px solid rgb(182, 209, 172);
+}
+
+main input{
+	padding: 15px 5px;
+}
+
+main input {
+	display: block;
+}
+
+main label {
+	line-height: 1.5;
+}
+
+main button {
+	float: right;
+	padding: 10px 20px;
+	background-color: rgb(7, 112, 84);
+	color: rgb(255,255,255);
+	border: 1px solid rgb(7, 112, 84);
+	border-radius: 2px;
+	letter-spacing: 1px;
+	transition: box-shadow 0.5s;
+}
+
+main button:focus,main button:hover {
+	box-shadow: 2px 2px 5px rgb(130,130,130);
+}
+
+footer {
+	clear: both;
+}
+
+/*media queries*/
+@media only screen and (min-width: 768px) {
+	main h2 {
+		padding-left: 20px;
+	}
+
+	form {
+		width: 576px;
+		margin: 0 auto;
+	}
+}
