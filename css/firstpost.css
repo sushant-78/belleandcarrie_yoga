@@ -1,0 +1,62 @@
+main {
+	background-color: rgb(255,255,255);
+	color: rgb(7, 112, 84);
+
+	padding: 30px 15px;
+}
+
+article h3 {
+	margin-bottom: 20px;
+}
+
+article h4,article .para_with_time, article img {
+	margin-bottom: 15px;
+}
+
+article p {
+	line-height: 1.3;
+}
+
+article img~p {
+	margin-bottom: 30px;
+}
+
+aside {
+	margin-top: 20px;
+}
+
+aside section {
+	border-bottom: 1px solid rgb(7, 112, 84);
+	padding: 50px 0;
+}
+
+aside h4 {
+	margin-bottom: 10px;
+}
+
+/*media queries*/
+@media only screen and (min-width: 768px) {
+	main {
+		width: 768px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	main {
+		width: 992px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	
+	article {
+		float: left;
+		width: 65%;
+		margin-right: 30px;
+	}
+
+	aside {
+		float: left;
+		width: 28%;
+	}
+}
