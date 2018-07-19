@@ -1,0 +1,53 @@
+main {
+	background-color: rgb(255,255,255);
+	padding: 30px 15px;
+}
+
+main h2{
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+}
+
+article {
+	margin-bottom: 50px;
+}
+
+article:last-child {
+	margin-bottom: 0;
+}
+
+article img,article h3 {
+	margin-bottom: 20px;
+}
+
+article h3 {
+	font-size: 1.25rem;
+}
+
+.para_with_time {
+	margin-bottom: 15px;
+}
+
+article p {
+	line-height: 1.3;
+}
+
+/*media queries*/
+@media only screen and (min-width: 768px) {
+	article {
+		overflow: hidden;
+	}
+
+	article img {
+		display: block;
+		width: 25%;
+		float: left;
+		margin-right: 20px;
+	}
+
+	.article_text {
+		width: 70%;
+		float: left;
+	}
+
+}
